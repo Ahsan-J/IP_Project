@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>  
+	    <link href="https://fonts.googleapis.com/css?family=Lato|Lobster" rel="stylesheet">
+      <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+      <style>
+	  .logo{
+		font-family: 'Lobster', cursive;
+		font-size: 30px;
+		color: black;
+	  text-align: center;
+		text-transform: uppercase;
+    margin-top: -30px;
+
+	  }
+    .navbar-text{
+    color: red;
+    font-size: 12px;
+    text-align: left;
+		color: white;
+      }
+    .eyes{
+      margin: auto;
+      margin-top: 20px;
+      }
+      ul.align_center{
+        text-transform: uppercase;
+        margin:auto;
+        margin-left: 20%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+      }
+     a.font_color {
+        color: #1F3AD3 !important;
+        margin-top: -10px;
+      }
+ .rightcorner{
+  margin-left: -170px;
+  margin-top: -05px;
+      }
+  .fontstyle{
+	font-family: 'Lato', sans-serif;
+	text-transform:uppercase;
+	font-size:18px;
+	color:black;
+	text-align:center;
+  font-weight: bold;
+	}
+	.hide:hover
+  {
+	display: block;
+	}
+	h2
+	{
+	font-family: 'Lato', sans-serif;
+	text-transform:uppercase;
+	font-size:22px;		
+	color:black;
+	text-align:center;
+	}
+	.btn-primary{
+	background-color:black;
+	color: white;
+	margin-left: 37%;
+  border:none;
+	}
+	.mainheading
+	{
+	font-size:18px;
+	text-transform:capitalize;
+	}
+	.bottomnavbar
+	{
+	color: gray;
+	font-size:14px;
+	}
+	.bottomnavbar:hover
+	{
+	color: white;
+	text-decoration:none;
+	}
+	.leftpadding
+	{
+	padding-left: -10px;
+	}
+  .pictureadjustment
+  {
+  margin-top: -60px;
+  }
+ .addmarginleft{
+   margin:40px 25px 0px 28px;
+   color: white;
+   background-color: #c97632;
+   border: none;
+   font-weight: bold;
+ }
+ .editing
+ {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: gray;
+ }
+ .text-center
+ {
+  position: relative;
+ }
+.icons
+{
+  position: absolute;
+  top: 30%;
+  left: 0;
+  width: 100%;
+}
+.fa
+{
+  font-size: 24px;
+  color: white;
+}
+.dropbtn {
+  background-color: white;
+  text-transform: uppercase;
+  padding: 16px;
+  padding-top: 0px;
+  margin-left: 20%;
+ font-family: Arial, Helvetica, sans-serif;
+font-size: 16px; 
+border: none;
+cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+   
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+    font-size: 12px;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+   color: #1F3AD3;
+}
+
+  </style>  
+</head>
+<body>
+  <div class="container">
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <p class="navbar-text">FREE SHIPPING ON ORDERS OF PKR 5,000 AND ABOVE IN PAKISTAN. NOW SHIPPING GLOBALLY</p>
+    <form class="navbar-form navbar-right">
+      <div class="input-group">
+        <input type="text" class="form-control" placeholder="Search">
+        <div class="input-group-btn">
+          <button class="btn btn-default" type="submit">
+            <i class="glyphicon glyphicon-search"></i>
+          </button>
+        </div>
+      </div>
+    </form>
+   <ul class="nav navbar-nav navbar-right"> 
+        <li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> Cart</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+    </ul>
+  </nav>
+  <div class="container">
+    <img src="eyes-163692_640.jpg" class="img-rounded img-responsive eyes" alt="Cinque Terre" width="304" height="236"> 
+	<p class="logo">the eyeconic</p>
+	<ul class="nav navbar-nav align_center">
+    
+    <li><a class="font_color" href="#">
+        <div class="dropdown">
+            <button class="dropbtn">men</button>
+            <div class="dropdown-content">
+              <a href="#">eastern wear</a>
+              <a href="#">western wear</a>
+              <a href="#">shoes</a>
+              <a href="#">accessories</a>
+            </div>
+          </div>  
+    </a></li>
+      <li><a class="font_color" href="#">
+        <div class="dropdown">
+          <button class="dropbtn">women</button>
+          <div class="dropdown-content">
+              <a href="#">eastern wear
+                
+              </a>
+              <a href="#">western wear</a>
+              <a href="#">shoes</a>
+              <a href="#">accessories</a>
+          </div>
+        </div></a></li>
+      <li><a class="font_color" href="#">
+          <div class="dropdown">
+              <button class="dropbtn">kids</button>
+              <div class="dropdown-content">
+                  <a href="#">eastern wear</a>
+                  <a href="#">western wear</a>
+                  <a href="#">shoes</a>
+                  <a href="#">accessories</a>
+              </div>
+            </div>  
+      </a></li>
+      <li><a class="font_color" href="#"> 
+        <div class="dropdown">
+          <button class="dropbtn">makeover</button>
+          <div class="dropdown-content">
+            <a href="#">face</a>
+            <a href="#">eyes</a>
+            <a href="#">lips</a>
+            <a href="#">nails</a>
+          </div>
+        </div></a></li>
+      <li><a class="font_color" href="#"> 
+        <div class="dropdown">
+          <button class="dropbtn">footwear</button>
+          <div class="dropdown-content">
+            <a href="#">Huarache</a>
+            <a href="#">Jumpsoles</a>
+            <a href="#">Kolhapuri Chappal</a>
+            <a href="#">loafers</a>
+            <a href="#">high heels</a>
+            <a href="#">jogers</a>
+          </div>
+        </div></a></li>
+      <li><a class="font_color" href="#"> 
+        <div class="dropdown">
+          <button class="dropbtn">accessories</button>
+          <div class="dropdown-content">
+              <a href="#">watches</a>
+              <a href="#">jwellery</a>
+              <a href="#">eyewear</a>
+              <a href="#">bags</a>
+          </div>
+        </div></a></li>
+    </ul>
+  </div>
+  </div>
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+	<li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>
+  
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="images/slider1.jpg" alt="Los Angeles">
+      </div>
+  
+      <div class="item">
+        <img src="images/slider2.jpg" alt="Chicago" >
+      </div>
+  
+      <div class="item">
+        <img src="images/slider3.jpg" alt="New York">
+      </div>
+	<div class="item">
+        <img src="images/slider4.jpg" alt="New York">
+      </div>
+    </div>
+  
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+  <div class="container">
+      <img src="images/trending.png" alt="not available" class="rightcorner" style="margin-left:-13%;">
+  </div>
+  <div class="container pictureadjustment">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="thumbnail">
+            <img src="images/trending1.jpg" alt="Lights" style="width:100%">
+            <div class="caption">
+              <p class="fontstyle">A style for every age and a dress for every memory</p>
+            </div>
+          </a>
+        </div>
+		<h2 class="heading">an ode to fashion</h2>
+		<a href="#" class="btn btn-primary">SHOP NOW</a>
+    </div>
+
+      <div class="col-md-4">
+        <div class="thumbnail">
+            <img src="images/trending2.jpg" alt="Nature" style="width:100%">
+            <div class="caption">
+              <p class="fontstyle">a fusion of masculinity and clothing excellence</p>
+			  </div>
+        </div>
+		<h2 class="heading">a class act</h2>
+		<a href="#" class="btn btn-primary">SHOP NOW</a>
+      </div>
+      <div class="col-md-4">
+        <div class="thumbnail">
+            <img src="images/trending3.jpg" alt="Fjords" style="width:100%">
+            <div class="caption">
+              <p class="fontstyle">Far too stylish to take off</p> 
+            </div>
+        </div>
+		 <h2 class="heading">Your vision, our priority</h2>
+		 <a href="#" class="btn btn-primary">SHOP NOW</a>
+      </div>
+      <div class="col-md-4">
+        <div class="thumbnail">
+            <img src="images/trending4.jpg" alt="Fjords" style="width:100%">
+            <div class="caption">
+              <p class="fontstyle">Because You're Worth It</p> 
+            </div>
+        </div>
+			 <h2 class="heading">Look of the Future</h2>
+			<a href="#" class="btn btn-primary">SHOP NOW</a>
+      </div>
+	
+   </div>
+	<div class="container">
+      <img src="images/CLOTHING.jpg" alt="not available" class="rightcorner">
+  </div>
+	 <div class="container pictureadjustment">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="thumbnail">
+            <img src="images/nagin1.jpg" alt="Lights" style="width:100%">
+            
+          </a>
+        </div>
+		<h2 class="heading">an ode to fashion</h2>
+		<a href="#" class="btn btn-primary">SHOP NOW</a>
+    </div>
+
+      <div class="col-md-4">
+        <div class="thumbnail">
+            <img src="images/nag1.jpg" alt="Nature" style="width:100%">
+         
+        </div>
+		<h2 class="heading">a class act</h2>
+		<a href="#" class="btn btn-primary">SHOP NOW</a>
+      </div>
+      <div class="col-md-4">
+        <div class="thumbnail">
+            <img src="images/nagin2.jpg" alt="Fjords" style="width:100%">
+           
+        </div>
+		 <h2 class="heading">Your vision, our priority</h2>
+		 <a href="#" class="btn btn-primary">SHOP NOW</a>
+      </div>
+      
+	
+   </div> 
+	 <div class="col-md-4">
+        <div class="thumbnail">
+            <img src="images/chapal1.jpg" alt="Fjords" style="width:100%">
+           
+        </div>
+		 <h2 class="heading">Your vision, our priority</h2>
+		 <a href="#" class="btn btn-primary">SHOP NOW</a>
+      </div>
+ <div class="col-md-4">
+        <div class="thumbnail">
+            <img src="images/chapal2.jpg" alt="Fjords" style="width:100%">
+           
+        </div>
+		 <h2 class="heading">Your vision, our priority</h2>
+		 <a href="#" class="btn btn-primary">SHOP NOW</a>
+      </div>
+ <div class="col-md-4">
+        <div class="thumbnail">
+            <img src="images/chapal3.jpg" alt="Fjords" style="width:100%">
+           
+        </div>
+		 <h2 class="heading">Your vision, our priority</h2>
+		 <a href="#" class="btn btn-primary">SHOP NOW</a>
+      </div>
+	<div class="col-md-4">
+        <div class="thumbnail">
+            <img src="images/makeup1.jpg" alt="Fjords" style="width:100%">
+           
+        </div>
+		 <h2 class="heading">Your vision, our priority</h2>
+		 <a href="#" class="btn btn-primary">SHOP NOW</a>
+      </div>
+ <div class="col-md-4">
+        <div class="thumbnail">
+            <img src="images/makeup2.jpg" alt="Fjords" style="width:100%">
+           
+        </div>
+		 <h2 class="heading">Your vision, our priority</h2>
+		 <a href="#" class="btn btn-primary">SHOP NOW</a>
+      </div>
+ <div class="col-md-4">
+        <div class="thumbnail">
+            <img src="images/makeup3.jpg" alt="Fjords" style="width:100%">
+           
+        </div>
+		 <h2 class="heading">Your vision, our priority</h2>
+		 <a href="#" class="btn btn-primary">SHOP NOW</a>
+      </div>
+	 <div class="container">
+        <img src="images/accessories.png" alt="not available" class="rightcorner img-rounded">
+  </div>
+	<div class="col-md-4">
+        <div class="thumbnail">
+            <img src="images/bag1.jpg" alt="Fjords" style="width:100%">
+           
+        </div>
+		 <h2 class="heading">Your vision, our priority</h2>
+		 <a href="#" class="btn btn-primary">SHOP NOW</a>
+      </div>
+ <div class="col-md-4">
+        <div class="thumbnail">
+            <img src="images/bag2.jpg" alt="Fjords" style="width:100%">
+           
+        </div>
+		 <h2 class="heading">Your vision, our priority</h2>
+		 <a href="#" class="btn btn-primary">SHOP NOW</a>
+      </div>
+ <div class="col-md-4">
+        <div class="thumbnail">
+            <img src="images/bag3.jpg" alt="Fjords" style="width:100%">
+           
+        </div>
+		 <h2 class="heading">Your vision, our priority</h2>
+		 <a href="#" class="btn btn-primary">SHOP NOW</a>
+      </div>
+	</div>
+   </div>
+  </div>
+  <nav class="navbar navbar-inverse navbar-bottom">
+    <ul class="nav navbar-nav align_center">
+      <li><a href="#">HELP & CONTACT</a></li>
+      <li><a href="#">SHIPPING & HANDLING</a></li>
+      <li><a href="#">RETURN & EXCHANGE</a></li>
+      <li><a href="#">TERMS & CONDITIONS</a></li>
+    </ul>
+    <form class="navbar-form navbar-right">
+      <div class="col-xs-2">
+        <label for="match" class="editing">Newsletter</label>
+        <input class="form-control" id="match" type="text" placeholder="Enter your Email">
+      </div>
+      <br>
+      <button class="btn btn-default addmarginleft" type="submit">Sign Up</button>
+    </form>
+    <br>
+<ul class="nav navbar-nav align_center">
+    <div class="text-center">
+      <li><a href=""><img src="images/pattern1.jpg" class="img-circle" alt="Cinque Terre" width="85" height="55">
+        <div class="caption icons"><i class="fa fa-facebook" aria-hidden="true"></i>
+        </div></a>
+      </li>
+        </div>
+        <div class="text-center inline-block">
+          <li><a href=""><img src="images/pattern2.jpg" class="img-circle" alt="Cinque Terre" width="85" height="55">
+          <div class="caption icons"><i class="fa fa-instagram" aria-hidden="true"></i>
+          </div></a></li>
+        </div>
+        <div class="text-center inline-block">
+        <li><a href=""><img src="images/pattern4.jpg" class="img-circle" alt="Cinque Terre" width="85" height="55">
+        <div class="caption icons"><i class="fa fa-twitter" aria-hidden="true"></i>
+        </div></a></li>
+    </div>
+</ul>
+  </nav>
+</body>
+</html>

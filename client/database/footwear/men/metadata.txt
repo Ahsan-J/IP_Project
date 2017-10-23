@@ -1,0 +1,50 @@
+1- MIAMI-NBK
+	PKR 2,995 SKU: 000000001-047
+	Size: 40 41 42
+	Color:NBK Black/SOYASAUCE
+2- PESHAWARI- COLA
+	PKR 2,995 SKU: 000000001-047
+	Size: 40 41 42 43 44
+	Color:cola
+3-BROWN-MOCCS
+	PKR 4,290.00  SKU: D01017491
+	Size: 39 40 42 43 44 45
+	Color:brown
+
+4-'Taylor' Leather Boots
+	PKR PKR 2,995.00  SKU: GS4742
+	Size: 39 40 42 43 44 45
+	Color:black
+	description:Red Tape Leather rubber 0.5 IN Heel Flat
+5-'Taylor' Lace Up Brogue
+	PKR PKR 2,999.00  SKU:GS4354
+	Size: 39 40 42 43 45
+	Color:brown
+	description:KOBBLER Leather laceup 0.5 IN Heel Flat
+
+6-“ELIOT” Buckled Leather
+	PKR 8,499.00  SKU:GS4932
+	Size: 39 40 42 43 45
+	Color:black/white
+	description:Unze London Leather Slip-on 0.5 IN Heel Flat
+
+7-JABEL SLEEK-BLACK
+	PKR 2,295  SKU:GS4675
+	Size: 39 40 42 43 45 46
+	Color:black
+8-‘Thoms’ Leather Laced-up
+	PKR 1,500.00  SKU:GS5105
+	Size: 39 40 42 43 45
+	Color:brown
+	description:KOBBLER Leather laceup  0.5 IN Heel Flat
+9-White Casual Sneaker
+	PKR 2,950.00  SKU:M54005
+	Size: 39 40 42 43 45
+	Color:white
+10- men slippers-brown
+	PKR 1,950.00  SKU:M54998
+	Size:  40 41 42 43 45
+	Color:brown
+
+
+	
