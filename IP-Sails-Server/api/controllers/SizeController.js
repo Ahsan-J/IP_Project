@@ -1,7 +1,7 @@
 /**
- * Size-colorController
+ * SizeController
  *
- * @description :: Server-side logic for managing size-colors
+ * @description :: Server-side logic for managing sizes
  * @help        :: See http://sailsjs.org/#!/documentation/concepts/Controllers
  */
 

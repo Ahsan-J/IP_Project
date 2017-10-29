@@ -1,4 +1,4 @@
-var uuidv1 = require('uuid/v1');
+var uuidv4 = require('uuid/v4');
 /**
  * UserController
  *
@@ -7,19 +7,25 @@ var uuidv1 = require('uuid/v1');
  */
 
 module.exports = {
-	addUser : function(req,res){
+	add : function(req,res){
         User.create({
-              uuid:uuidv1(),
-              name:req.query.name,
-              email:req.query.email,
-              password:req.query.password,
-              contact:req.query.contact,
-              nic:req.query.nic,
-              address:req.query.address,
-              imageUrl:req.query.imageUrl
+                uuid:uuidv4(),
+                name:req.body.name,
+                email:req.body.email,
+                password:req.body.password,
+                contact:req.body.contact,
+                nic:req.body.nic,
+                address:req.body.address,
         }).then(function (result){
             res.send(result);
-        })
-    }
+        }).catch(function(err){
+            res.badRequest();
+            // res.status(err.status).send({
+            //     status:err.status,
+            //     error:err.error,
+            //     message:err.invalidAttributes.email[0].message
+            // })
+        });
+    },
 };
 

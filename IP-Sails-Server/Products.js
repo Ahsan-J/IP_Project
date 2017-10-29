@@ -6,20 +6,27 @@
  */
 
 module.exports = {
-  schema:true,
-  autoPK: false,
-  autoCreatedAt:false,
-  autoUpdatedAt: false,
-  
+
   attributes: {
-    id:{
+    prodID:{
       type:'integer',
-      primaryKey : true,
-      autoIncrement:true,
+      unique:true,
+      notNull:true,
+    },
+    category :{
+      notNull:true,
+      model:'Category',
+    },
+    culture :{
+      type:'string',
+      notNull:true,
+    },
+    proType: {
+      type:'string',
       notNull:true,
     },
     description :{
-      type:'longtext',
+      type:'text',
       notNull:true,
       required:true,
     },
@@ -33,11 +40,24 @@ module.exports = {
       notNull:true,
       required: true
     },
+    size:{
+      type:'array',
+      notNull:true,
+    },
+    color : {
+      type:'array',
+      notNull:true,
+      required:true
+    },
     qualityClass :{
       type:'string',
       notNull:true,
       defaultsTo:'not defined'
     },
+    image : {
+      notNull:true,
+      type: 'array',
+    }
   }
 };
 

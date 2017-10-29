@@ -7,11 +7,15 @@
 
 module.exports = {
 
+  schema:true,
+  autoPK: false,
+  autoCreatedAt:false,
+  autoUpdatedAt: false,
+  
   attributes: {
     uuid:{
       type:'string',
-      unique:true,
-      notNull:true,
+      primaryKey:true,
       required:true,
     },
     name:{
@@ -21,19 +25,17 @@ module.exports = {
     },
     email:{
       type:'string',
-      email:true,
       unique:true,
-      notNull:true,
-      required:true
     },
     password:{
       type:'string',
-      password:true,
-      required:true
+      required:true,
+      notNull:true,
     },
     contact:{
       type:'string',
       notNull:true,
+      required:true,
     },
     nic:{
       type:'string',
@@ -41,8 +43,9 @@ module.exports = {
       notNull:true,
     },
     address:{
-      type:'text',
+      type:'longtext',
       notNull:true,
+      required:true,
     },
     imageUrl:{
       type:'string'

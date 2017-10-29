@@ -8,6 +8,9 @@ import {
 import Panel from './admin/index'
 
 class App extends Component {
+  constructor(props){
+    super(props);
+  }
   render() {
     return (
         <Router>
